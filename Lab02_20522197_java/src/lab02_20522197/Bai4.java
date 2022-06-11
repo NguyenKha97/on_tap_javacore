@@ -14,25 +14,25 @@ public class Bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap gia tri b, c theo thu tu cach nhau 1 khoang trang: ");
+        int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = sc.nextInt();
-        if(b == 0) {
-            if(c == 0) 
+        if(a == 0) {
+            if(b == 0) 
                 System.out.println("PT : 0x + 0 = 0 luon dung voi moi x.");
             else
-                System.out.println("PT : 0x + " + c + " = 0 vo nghiem");         
+                System.out.println("PT : 0x + " + b + " = 0 vo nghiem");         
         }
-        else if(b == 1) {
-            if(c == 0) 
+        else if(a == 1) {
+            if(b == 0) 
                 System.out.println("PT : x + 0 = 0 co nghiem x = 0");
             else
-                System.out.println("PT : x + " + c + " = 0 co nghiem x = " + -c); 
+                System.out.println("PT : x + " + b + " = 0 co nghiem x = " + -b); 
         }
         else {
-            if(c == 0) 
-                System.out.println("PT : " + b + "x + 0 = 0 co nghiem x = 0");
+            if(b == 0) 
+                System.out.println("PT : " + a + "x + 0 = 0 co nghiem x = 0");
             else
-                System.out.println("PT : " + b + "x + " + c + " = 0 co nghiem x = " + (double)Math.round((double)-c/b * 100000)/100000 + " hay x = " + -c + "/" + b); 
+                System.out.println("PT : " + a + "x + " + b + " = 0 co nghiem x = " + (double)Math.round((double)-b/a * 100000)/100000 + " hay x = " + -b + "/" + a); 
         }
     }
 }
