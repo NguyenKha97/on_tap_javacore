@@ -39,7 +39,7 @@ public class Bai21_27 {
             sum += ((double) 1 / n);
             System.out.print(1 + "/" + n + " = " + (double) Math.round((sum) * 1000) / 1000 + "\n");
         }
-
+/*
         System.out.print("Bai 22: S = ");
         for (int i = 1; i < n; i++) {
             System.out.print(1 + "/" + i * 2 + " + ");
@@ -104,6 +104,6 @@ public class Bai21_27 {
         sum6 += ((double) Math.pow(x,n) / getSum(n));
         System.out.print(x + "^" + n + "/" + getSum(n) + " = " + (double) Math.round((sum6) * 1000) / 1000 + "\n");
         }
-        
+        */
     }
 }

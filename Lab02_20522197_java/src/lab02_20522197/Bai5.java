@@ -89,7 +89,7 @@ public class Bai5 {
             else{
                 System.out.println("Delta = " + delta + " > 0\n=> Pt co 2 nghiem phan biet");
                 System.out.println("x1 = "+ ((double)-b + Math.sqrt(delta))/(2*a) + "\nx2 = " + ((double)-b - Math.sqrt(delta))/(2*a));
-            }
+            }        
         }
     }
 }
