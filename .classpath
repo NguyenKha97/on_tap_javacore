@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BTVN_buoi1_20522197_java/src"/>
+	<classpathentry kind="src" path="BTVN_buoi2_20522197/src"/>
+	<classpathentry kind="src" path="buoi2_java/src"/>
+	<classpathentry kind="src" path="Lab02_20522197_java/src"/>
+	<classpathentry kind="src" path="LAB03_20522197/src"/>
+	<classpathentry kind="src" path="LAB04_20522197/src"/>
+	<classpathentry kind="src" path="textBuoi1/src"/>
+	<classpathentry kind="src" path="TH1-java-20522197/src"/>
+	<classpathentry kind="src" path="VietLot/src"/>
+	<classpathentry kind="lib" path="LAB03_20522197/dist/LAB03_20522197.jar"/>
+	<classpathentry kind="output" path="BTVN_buoi1_20522197_java/build/classes"/>
+</classpath>
